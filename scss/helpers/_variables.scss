@@ -1,19 +1,18 @@
 // Paleta de color principal
 
 $black: #242424;
-$coffe: #8A5B3B;
+$brown: #8A5B3B;
 $cream: #FFF1DF;
 $green-dark: #628469;
 $green-ligth: #B1BBA7;
-$orange: #DF8F63;
+$header_banner: #DF8F63;
 $white: #fff;
 
-// Paleta de grises
+// Paleta de escala de grises
 
 $gray-dark: #5C605D;
 $gray-ligth: #DBDBDB;
 $gray-medium: #A7A7A7;
-
 
 // Fonts
 
@@ -30,15 +29,20 @@ $paragraph-font-family: $font-quicksand;
 $headline-one: 1.875rem; // 30px
 $headline-three: 1.375rem; // 22px
 $headline-two: 1.625rem; // 26px
-$links: 0.625rem; //10px
+$links: 0.625rem; // 10px
 $paragraph-one: 1.125rem;// 18px
 $paragraph-two: 1rem; // 16px
+$paragraph-img: 0.875rem; // 14px
 $pie-pagina: 0.625rem; //10px
-
-
 
 // border
 $border-radius: 6px;
 
 // formula de porcentajes
 // valor actual ÷ el padre(wrapper) x100
+
+// breackpoints
+
+$tablet: 768px;
+$desktop: 1440px;
+

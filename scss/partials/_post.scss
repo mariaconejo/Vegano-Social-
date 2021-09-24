@@ -1,0 +1,140 @@
+// Post
+.background_post {
+  bottom:108px;
+  position: relative;
+  right: 10px;
+}
+.big_img {
+  background: url("../img/img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: $border-radius;
+  float: left;
+  height: 293px;
+  margin-right: 10px;
+  max-width: 100%;
+  width: 163px;
+}
+.decoration_svg {
+  left: 0;
+  position: absolute;
+  top: 2024px;
+}
+.post {
+  background-color: $brown;
+  margin-top: 46px;
+  padding-bottom: 35px;
+}
+.post_card {
+  padding-top: 36px;
+}
+.post_detail--img {
+  margin-bottom: 52px;
+}
+.post_detail {
+  padding-top: 11px;
+}
+.post_detail--side-img {
+  background: url("../img/img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: $border-radius;
+  float: right;
+  height: 157px;
+  max-width: 100%;
+  width: 181px;
+}
+.post_detail-img-2 {
+  background: url("../img/img4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: $border-radius;
+  height: 149px;
+  max-width: 100%;
+  width: 355px;
+}
+.post_title {
+  color: $cream;
+  padding-bottom: 86px;
+}
+.title_detail {
+  color: $cream;
+}
+
+.facebook_link {
+  img {
+    padding-left: 231px;
+    padding-right: 48px;
+    padding-top: 79px;
+  }
+}
+.more_info {
+  padding-top: 71px;
+  text-align: center;
+  p {
+    font-size: $paragraph-two;
+    font-weight: bold;
+  }
+}
+.post_card--avatar {
+  img {
+    float: left;
+    margin-left: 10px;
+  }
+}
+.post_card--info {
+  float: right;
+  padding-bottom: 92px;
+  p {
+    color: $cream;
+    font-size: $pie-pagina;
+    padding-right: 150px;
+  }
+}
+.post_card-minibody {
+  padding-bottom: 113px;
+  position: absolute;
+  top: 510px;;
+  z-index: 2;
+  p {
+    color: $cream;
+    font-size: $paragraph-two;
+  }
+}
+.post_detail--info {
+  p {
+    color: $cream;
+    font-size: $paragraph-one;
+  }
+}
+.post_detail-side {
+  p {
+    color: $cream;
+    font-size: $paragraph-img;
+    line-height: 23px;
+  }
+  a {
+    color: $cream;
+    font-weight: bold;
+  }
+}
+.post_detail--side-2 {
+  padding-bottom: 31px;
+  p {
+    color: $cream;
+    font-size: $paragraph-one;
+  }
+  a {
+    color: $cream;
+    font-weight: bold;
+  }
+  img {
+    padding-left: 10px;
+  }
+}
+
+
+
+
+
+

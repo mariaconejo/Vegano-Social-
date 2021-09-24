@@ -1,60 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Veganos Social</title>
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+      <title>Veganos Social</title>
+  </head>
   <body>
-      <div class="wrapper"><!--start wrapper-->
-        <div class="second_wrapper"><!--start second wrapper-->
-          <div class="header"><!--start header-->
-            <div class="header_components">
-                <a class="header_logo" href="#"><img src="img/logo.png" alt="logo"></a>
-                <a class="header_nav_button" href="#header_nav"><img src="img/button_menu.png" alt="logo"></a>
+      <div class="header">
+        <svg class="menu_svg" width="249" height="106" viewBox="0 0 249 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M86 47.5C55.3302 3.3654 39.1667 0.666667 0 -0.5H249.5V106H170C110.5 99.5 106.5 77 86 47.5Z" fill="#242424"/>
+        </svg>
+        <div class="wrapper">
+          <a class="header_logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+          <div class="header_components">
+            <button class="header_menu transparent_btn"><img src="./img/menu.svg" alt="menu"></button>
+          </div>
+        </div>
+      </div>
+      <div class="header_nav" id="header_nav">
+        <svg class="menu_svg" width="249" height="106" viewBox="0 0 249 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M86 47.5C55.3302 3.3654 39.1667 0.666667 0 -0.5H249.5V106H170C110.5 99.5 106.5 77 86 47.5Z" fill="#242424"/>
+        </svg>
+        <svg  class="background_svg" width="256" height="484" viewBox="0 0 256 484" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M245.5 274.403C245.5 384.307 156.405 473.403 46.5 473.403C-63.4047 473.403 -152.5 384.307 -152.5 274.403C-152.5 164.498 -63.4047 75.4025 46.5 75.4025C156.405 75.4025 245.5 164.498 245.5 274.403Z" stroke="#628469" stroke-width="21"/>
+          <path d="M27.7344 389.316C40.5024 401.823 74.3247 423.086 107.469 408.077" stroke="#628469" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M-21.5102 82.8823C-23.3342 168.611 27.1125 333.97 243.492 309.58" stroke="#628469" stroke-width="21"/>
+          <path d="M-9.78832 89.1359L237.234 304.89M-33.2398 89.1359L-145.025 322.087" stroke="#628469" stroke-width="21"/>
+          <circle cx="19.9262" cy="330.687" r="18.7612" fill="#628469"/>
+          <circle cx="129.36" cy="344.758" r="18.7612" fill="#628469"/>
+        </svg>
+        <div class="wrapper ">
+            <div class="header_nav--content">
+              <button class="menu_close transparent_btn"><img src="./img/close.svg" alt="cerrar"></button>
+              <ul class="menu_list">
+                  <li><a href="#">Perfil</a></li>
+                  <li><a href="#">Amigos</a></li>
+                  <li><a href="#photo">Fotos</a></li>
+                  <li><a href="#post">Post</a></li>
+                  <li><a href="#related">Artículos relacionados</a></li>
+                  <li><a href="#">Cerrar sesión</a></li>
+              </ul>
             </div>
-            <div class="header_nav" id="header_nav">
-                <div class="header_nav--content">
-                    <a class="header_nav_content-close" href="#header_nav">X</a>
-                    <ul>
-                        <li><a href="#">Perfil</a></li>
-                        <li><a href="#">Amigos</a></li>
-                        <li><a href="#">Fotos</a></li>
-                        <li><a href="#">Post</a></li>
-                        <li><a href="#">Configuración</a></li>
-                        <li><a href="#">Cerrar sesión</a></li>
-                    </ul>
-                </div>
+          </div>
+      </div>
+      <div class="header_banner">
+        <div class="wrapper">
+          <h2 class="banner_title">Lorem ipsum</h2>
+          <p class="banner_paragrahp">Lorem Ipsum is simply <b>dummy text </b>of the typesetting industry.</p>
+          <button class="banner_btn">Button</button>
+        </div>
+      </div>
+      <div id="post" class="post">
+        <div class="wrapper">
+          <div class="post_card">
+            <div class="post_card--user clearfix">
+              <div class="post_card--avatar">
+                <img src="img/img.png" alt="User">
+              </div>
+              <div class="post_card--info">
+                <p>Anonimo</p>
+                <p>Desamparados, 10/09/2021</p>
+              </div>
             </div>
-            <div class="header_banner">
-                <h2>Lorem ipsum</h2>
-                <p>Lorem Ipsum is simply dummy text of the typesetting industry.</p>
-                <button>Button</button>
+            <svg  class="background_post" width="70%" height="484" viewBox="0 0 249 484" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M238.5 274.403C238.5 384.307 149.405 473.403 39.5 473.403C-70.4047 473.403 -159.5 384.307 -159.5 274.403C-159.5 164.498 -70.4047 75.4025 39.5 75.4025C149.405 75.4025 238.5 164.498 238.5 274.403Z" stroke="#628469" stroke-width="21"/>
+              <path d="M20.7344 389.316C33.5024 401.823 67.3247 423.086 100.469 408.077" stroke="#628469" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M-28.5102 82.8823C-30.3342 168.611 20.1125 333.97 236.492 309.58" stroke="#628469" stroke-width="21"/>
+              <path d="M-16.7882 89.1359L230.234 304.89M-40.2397 89.1359L-152.025 322.087" stroke="#628469" stroke-width="21"/>
+              <circle cx="12.9262" cy="330.687" r="18.7612" fill="#628469"/>
+              <circle cx="122.36" cy="344.758" r="18.7612" fill="#628469"/>
+            </svg>
+            <div class="post_card-minibody">
+              <h1 class="post_title">Lorem ipsum</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and
+                  Lorem Ipsum passages, and more recently with desktop
+                  publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+              <div class="more_info">
+                <p>Ver más</p>
+                <button class="ver-mas_btn transparent_btn"><img src="./img/ver_mas.svg" alt="ver más"></button>
+              </div>
             </div>
-          </div><!--finish header-->
-          <div class="body"><!--start body-->
-              <div class="body_card">
-                  <div class="body_card-header">
-                      <img src="img/img.png" alt="User">
-                      <p>Anonimo</p>
-                      <p>Desamparados, 10/09/2021 </p>
-                  </div>
-                  <div class="body_card-minibody">
-                      <h2>Lorem ipsum</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          Lorem Ipsum passages, and more recently with desktop
-                          publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                      </p>
-                      <a href="#">ver más <img src="img/ver_mas.png" alt="ver más"></a>
-                  </div>
-            </div>
-            <div class="body_detail">
-                <h2>Lorem Ipsun</h2>
+            <div class="post_detail">
+              <div class="post_detail--info">
+                <h2 class="title_detail">Lorem Ipsun</h2>
                 <p>Lorem Ipsum is simply dummy
                     text of the printing and typesetting
                     industry's standard dummy text ever
@@ -63,82 +98,87 @@
                     scrambled it to make a type specimen
                     book.
                 </p>
-                <div class="body_detail-img">
-                    <img src="img/img2.png" alt="imagen2">
-                    <div class="body_detail-side">
-                        <img src="img/img3.png" alt="imagen3">
-                        <p>Lorem Ipsum is simply dummy
-                            text the printing <a href="#">and typesetting
-                            industry.</a>
-                            Lorem Ipsum has been the
-                            industry's standard dummy text ever.</p>
-                    </div>
+              </div>
+              <div id="photo" class="post_detail--section">
+                <div class="post_detail--img clearfix">
+                  <div class="big_img"></div>
+                  <div class="post_detail-side">
+                    <div class="post_detail--side-img"></div>
+                    <p>
+                      Lorem Ipsum is simply dummy
+                      text the printing <a href="#">and typesetting
+                      industry.</a>
+                      Lorem Ipsum has been the
+                      industry's standard dummy text ever.
+                    </p>
+                  </div>
                 </div>
-                <h2>Lorem Ipsun</h2>
-                <p>Lorem Ipsum is simply dummy
-                    text of the printing and typesetting
-                    industry's standard dummy text ever
-                    since the 1500s, when an unknown
-                    printer took a galley of type and
-                    scrambled it to make <a href="#">a type specimen
-                    book.</a>
-                </p>
-                <img src="img/img4.png" alt="imagen4">
-                <a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="img/twitter.png" alt="twitter"></a>
-            </div>
-            <div class="body_banner">
-                <p>Lorem Ipsum is simply <b>dummy text</b> of the typesetting industry.</p>
-                <button>Button</button>
-            </div>
-            <div class="body_related">
-                <div class="body_card">
-                    <div class="body_card-header">
-                        <img src="img/img.png" alt="User">
-                        <p>Anonimo</p>
-                        <p>Desamparados, 10/09/2021 </p>
-                    </div>
-                    <div class="body_card-minibody">
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                    </div>
+                <div class="post_detail--side-2">
+                  <h2 class="title_detail">Lorem Ipsun</h2>
+                  <p>Lorem Ipsum is simply dummy
+                      text of the printing and typesetting
+                      industry's standard dummy text ever
+                      since the 1500s, when an unknown
+                      printer took a galley of type and
+                      scrambled it to make <a href="#">a type specimen
+                      book.</a>
+                  </p>
+                  <div class="post_detail-img-2"></div>
                 </div>
-                <div class="body_card">
-                    <div class="body_card-header">
-                        <img src="img/img.png" alt="User">
-                        <p>Anonimo</p>
-                        <p>Desamparados, 10/09/2021 </p>
-                    </div>
-                    <div class="body_card-minibody">
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div><!--finish body-->
-        <div class="footer"><!--start footer-->
-            <ul>
-                <li><a href="#">Perfil</a></li>
-                <li><a href="#">Amigos</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li><a href="#">Post</a></li>
-                <li><a href="#">Configuración</a></li>
-                <li><a href="#">Cerrar sesión</a></li>
-            </ul>
+              </div>
+              <svg class="decoration_svg" width="249" height="107" viewBox="0 0 249 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M162.5 58.5C193.17 102.635 209.333 105.333 248.5 106.5L-1 106.5L-1 0L78.5 0C138 6.5 142 29 162.5 58.5Z" fill="#FFF1DF"/>
+              </svg>
+              <a class="facebook_link" href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+              <a class="twitter_link" href="#"><img src="img/twitter.svg" alt="twitter"></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_banner second_banner">
+        <div class="wrapper">
+          <h2 class="banner_title">Lorem ipsum</h2>
+          <p class="banner_paragrahp">Lorem Ipsum is simply <b>dummy text </b>of the typesetting industry.</p>
+          <button class="banner_btn">Button</button>
+        </div>
+      </div>
+      <div class="post_related">
+        <div class="wrapper">
+          <h2 class="post_related--title">Related posts</h2>
+          <div id="related" class="articules">
+            <a href="#"><img src="./img/image3.png" alt="articulo"></a>
+            <a href="#"><img src="./img/image3.png" alt="articulo"></a>
+            <a href="#"><img src="./img/image3.png" alt="articulo"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <svg class="footer_decoration" width="250" height="107" viewBox="0 0 250 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M86 48C55.3302 3.8654 39.1667 1.16667 0 0H249.5V106.5H170C110.5 100 106.5 77.5 86 48Z" fill="#FFF1DF"/>
+        </svg>
+        <svg  class="footer_svg" width="35%" height="243" viewBox="0 0 126 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M119.5 138.283C119.5 192.131 75.8478 235.783 22 235.783C-31.8478 235.783 -75.5 192.131 -75.5 138.283C-75.5 84.4357 -31.8478 40.7834 22 40.7834C75.8478 40.7834 119.5 84.4357 119.5 138.283Z" stroke="#628469" stroke-width="13"/>
+          <path d="M12.6848 195.329C19.0231 201.538 35.8132 212.093 52.2669 204.642" stroke="#628469" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M-11.7615 43.209C-12.667 85.7662 12.3758 167.854 119.791 155.746" stroke="#628469" stroke-width="13"/>
+          <path d="M-5.94233 46.3135L116.685 153.418M-17.5841 46.3135L-73.0767 161.955" stroke="#628469" stroke-width="13"/>
+          <circle cx="8.80831" cy="166.223" r="9.31343" fill="#628469"/>
+          <circle cx="63.1333" cy="173.209" r="9.31343" fill="#628469"/>
+        </svg>
+        <div class="wrapper">
+          <ul class="list_footer">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Amigos</a></li>
+            <li><a href="#photo">Fotos</a></li>
+            <li><a href="#post">Post</a></li>
+            <li><a href="#related">Artículos relacionados</a></li>
+            <li><a href="#">Cerrar sesión</a></li>
+          </ul>
+          <div class="footer_author">
             <p>Veganos Social</p>
             <p>Copyright © 2021 Veganos Social</p>
-        </div>finish footer
-      </div><!--finish second wrapper-->
-    </div><!--finish wrapper-->
+          </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>

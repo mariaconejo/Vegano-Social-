@@ -1,1 +1,37 @@
+// Globals
+body {
+  background-color: $cream;
+  font-family: $paragraph-font-family;
+  margin: 0;
+  padding:0;
+}
+h1 {
+  font-family: $headlines-font-family;
+  font-size: $headline-one;
+}
+h2 {
+  font-family: $headlines-font-family;
+  font-size: $headline-two;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 355px;
+  @media (min-width: $tablet) {
+    width: 748px;
+  }
+  @media (min-width: $desktop) {
+    width: 1400px;
+  }
+}
 

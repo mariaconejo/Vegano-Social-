@@ -1,11 +1,31 @@
-
-
-
-
-
-
-
-
+// buttons
+.banner_btn {
+  background-color: $brown;
+  border-radius: 5px;
+  border: none;
+  color: $cream;
+  font-size: $paragraph-two;
+  font-weight: bold;
+  padding: 2.81% 3.94%; // 10px 14px
+}
+.header_menu {
+  position: absolute;
+  right: 2.81%; // 10px
+  top: 6.34%; // 40px
+  z-index: 2;
+}
+.menu_close {
+  left: 325px;
+  position: absolute;
+  top: 6.34%; // 40px
+  z-index: 2;
+}
+.transparent_btn {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 

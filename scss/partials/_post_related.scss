@@ -1,0 +1,23 @@
+// post related
+
+.articules {
+  display: flex;
+  overflow: auto;
+}
+.post_related {
+  margin-top: 54px;
+}
+.post_related--title{
+  color: $brown;
+  font-size: $headline-two;
+  font-family: $headlines-font-family;
+}
+
+.articules {
+  a{
+    img{
+      border-radius: $border-radius;
+      padding-left: 10px;
+    }
+  }
+}

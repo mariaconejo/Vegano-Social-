@@ -1,0 +1,41 @@
+// footer
+.footer {
+  background-color: $brown;
+  margin-top: 22px;
+}
+.footer_decoration {
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top:2929px;
+  z-index: 3;
+}
+.footer_svg {
+  position: absolute;
+}
+
+.footer_author {
+  padding-bottom: 7px;
+  p {
+    color: $cream;
+    font-size: $paragraph-two;
+    font-weight: bold;
+    line-height: 4px;
+    position: relative;
+    z-index: 2;
+  }
+}
+.list_footer {
+  list-style: none;
+  padding-top: 42px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 34px;
+  a {
+    color: $cream;
+    font-size: $paragraph-two;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
